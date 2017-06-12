@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81A18B711EEE6A8000BA8293 /* WiFiKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A18B6F1EEE6A8000BA8293 /* WiFiKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81A18B7F1EEE6AAA00BA8293 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A18B7E1EEE6AAA00BA8293 /* main.m */; };
+		81A18B821EEE6AAA00BA8293 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A18B811EEE6AAA00BA8293 /* AppDelegate.m */; };
+		81A18B881EEE6AAA00BA8293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A18B861EEE6AAA00BA8293 /* Main.storyboard */; };
+		81A18B8A1EEE6AAA00BA8293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A18B891EEE6AAA00BA8293 /* Assets.xcassets */; };
+		81A18B8D1EEE6AAA00BA8293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A18B8B1EEE6AAA00BA8293 /* LaunchScreen.storyboard */; };
+		81A18BDF1EEE72C800BA8293 /* getgateway.c in Sources */ = {isa = PBXBuildFile; fileRef = 81A18BC51EEE72C800BA8293 /* getgateway.c */; };
+		81A18BE01EEE72C800BA8293 /* getgateway.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A18BC61EEE72C800BA8293 /* getgateway.h */; };
+		81A18BE11EEE72C800BA8293 /* if_arp.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A18BC71EEE72C800BA8293 /* if_arp.h */; };
+		81A18BE21EEE72C800BA8293 /* if_ether.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A18BC81EEE72C800BA8293 /* if_ether.h */; };
+		81A18BE31EEE72C800BA8293 /* if_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A18BC91EEE72C800BA8293 /* if_types.h */; };
+		81A18BE41EEE72C800BA8293 /* route.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A18BCA1EEE72C800BA8293 /* route.h */; };
+		81A18BE51EEE72C800BA8293 /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A18BCC1EEE72C800BA8293 /* SimplePing.h */; };
+		81A18BE61EEE72C800BA8293 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A18BCD1EEE72C800BA8293 /* SimplePing.m */; };
+		81A18BE71EEE72C800BA8293 /* SimplePingHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A18BCE1EEE72C800BA8293 /* SimplePingHelper.h */; };
+		81A18BE81EEE72C800BA8293 /* SimplePingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A18BCF1EEE72C800BA8293 /* SimplePingHelper.m */; };
+		81A18BE91EEE72C800BA8293 /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A18BD11EEE72C800BA8293 /* AsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81A18BEA1EEE72C800BA8293 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A18BD21EEE72C800BA8293 /* AsyncSocket.m */; };
+		81A18BEB1EEE72C800BA8293 /* Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A18BD51EEE72C800BA8293 /* Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81A18BEC1EEE72C800BA8293 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A18BD61EEE72C800BA8293 /* Device.m */; };
+		81A18BED1EEE72C800BA8293 /* Router.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A18BD71EEE72C800BA8293 /* Router.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81A18BEE1EEE72C800BA8293 /* Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A18BD81EEE72C800BA8293 /* Router.m */; };
+		81A18BEF1EEE72C800BA8293 /* WiFi+Scan.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A18BD91EEE72C800BA8293 /* WiFi+Scan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81A18BF01EEE72C800BA8293 /* WiFi+Scan.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A18BDA1EEE72C800BA8293 /* WiFi+Scan.m */; };
+		81A18BF11EEE72C800BA8293 /* WiFi+Socket.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A18BDB1EEE72C800BA8293 /* WiFi+Socket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81A18BF21EEE72C800BA8293 /* WiFi+Socket.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A18BDC1EEE72C800BA8293 /* WiFi+Socket.m */; };
+		81A18BF31EEE72C800BA8293 /* WiFi.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A18BDD1EEE72C800BA8293 /* WiFi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81A18BF41EEE72C800BA8293 /* WiFi.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A18BDE1EEE72C800BA8293 /* WiFi.m */; };
+		81A18BF51EEE734B00BA8293 /* WiFiKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A18B6C1EEE6A8000BA8293 /* WiFiKit.framework */; };
+		81A18BF81EEE782400BA8293 /* WiFiController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A18BF71EEE782400BA8293 /* WiFiController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81A18B6C1EEE6A8000BA8293 /* WiFiKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WiFiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A18B6F1EEE6A8000BA8293 /* WiFiKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiFiKit.h; sourceTree = "<group>"; };
+		81A18B701EEE6A8000BA8293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81A18B7B1EEE6AAA00BA8293 /* iOS Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A18B7E1EEE6AAA00BA8293 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81A18B801EEE6AAA00BA8293 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81A18B811EEE6AAA00BA8293 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81A18B871EEE6AAA00BA8293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81A18B891EEE6AAA00BA8293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81A18B8C1EEE6AAA00BA8293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81A18B8E1EEE6AAA00BA8293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81A18BC51EEE72C800BA8293 /* getgateway.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getgateway.c; sourceTree = "<group>"; };
+		81A18BC61EEE72C800BA8293 /* getgateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getgateway.h; sourceTree = "<group>"; };
+		81A18BC71EEE72C800BA8293 /* if_arp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_arp.h; sourceTree = "<group>"; };
+		81A18BC81EEE72C800BA8293 /* if_ether.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_ether.h; sourceTree = "<group>"; };
+		81A18BC91EEE72C800BA8293 /* if_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_types.h; sourceTree = "<group>"; };
+		81A18BCA1EEE72C800BA8293 /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		81A18BCC1EEE72C800BA8293 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		81A18BCD1EEE72C800BA8293 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		81A18BCE1EEE72C800BA8293 /* SimplePingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePingHelper.h; sourceTree = "<group>"; };
+		81A18BCF1EEE72C800BA8293 /* SimplePingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePingHelper.m; sourceTree = "<group>"; };
+		81A18BD11EEE72C800BA8293 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		81A18BD21EEE72C800BA8293 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		81A18BD51EEE72C800BA8293 /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		81A18BD61EEE72C800BA8293 /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+		81A18BD71EEE72C800BA8293 /* Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Router.h; sourceTree = "<group>"; };
+		81A18BD81EEE72C800BA8293 /* Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Router.m; sourceTree = "<group>"; };
+		81A18BD91EEE72C800BA8293 /* WiFi+Scan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WiFi+Scan.h"; sourceTree = "<group>"; };
+		81A18BDA1EEE72C800BA8293 /* WiFi+Scan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WiFi+Scan.m"; sourceTree = "<group>"; };
+		81A18BDB1EEE72C800BA8293 /* WiFi+Socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WiFi+Socket.h"; sourceTree = "<group>"; };
+		81A18BDC1EEE72C800BA8293 /* WiFi+Socket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WiFi+Socket.m"; sourceTree = "<group>"; };
+		81A18BDD1EEE72C800BA8293 /* WiFi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFi.h; sourceTree = "<group>"; };
+		81A18BDE1EEE72C800BA8293 /* WiFi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiFi.m; sourceTree = "<group>"; };
+		81A18BF61EEE782400BA8293 /* WiFiController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFiController.h; sourceTree = "<group>"; };
+		81A18BF71EEE782400BA8293 /* WiFiController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiFiController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81A18B681EEE6A8000BA8293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81A18B781EEE6AAA00BA8293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A18BF51EEE734B00BA8293 /* WiFiKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81A18B621EEE6A8000BA8293 = {
+			isa = PBXGroup;
+			children = (
+				81A18B6E1EEE6A8000BA8293 /* WiFiKit */,
+				81A18B7C1EEE6AAA00BA8293 /* iOS Demo */,
+				81A18B6D1EEE6A8000BA8293 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81A18B6D1EEE6A8000BA8293 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81A18B6C1EEE6A8000BA8293 /* WiFiKit.framework */,
+				81A18B7B1EEE6AAA00BA8293 /* iOS Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81A18B6E1EEE6A8000BA8293 /* WiFiKit */ = {
+			isa = PBXGroup;
+			children = (
+				81A18BC31EEE72C800BA8293 /* Class */,
+				81A18B6F1EEE6A8000BA8293 /* WiFiKit.h */,
+				81A18B701EEE6A8000BA8293 /* Info.plist */,
+			);
+			path = WiFiKit;
+			sourceTree = "<group>";
+		};
+		81A18B7C1EEE6AAA00BA8293 /* iOS Demo */ = {
+			isa = PBXGroup;
+			children = (
+				81A18B801EEE6AAA00BA8293 /* AppDelegate.h */,
+				81A18B811EEE6AAA00BA8293 /* AppDelegate.m */,
+				81A18BF61EEE782400BA8293 /* WiFiController.h */,
+				81A18BF71EEE782400BA8293 /* WiFiController.m */,
+				81A18B861EEE6AAA00BA8293 /* Main.storyboard */,
+				81A18B891EEE6AAA00BA8293 /* Assets.xcassets */,
+				81A18B8B1EEE6AAA00BA8293 /* LaunchScreen.storyboard */,
+				81A18B8E1EEE6AAA00BA8293 /* Info.plist */,
+				81A18B7D1EEE6AAA00BA8293 /* Supporting Files */,
+			);
+			path = "iOS Demo";
+			sourceTree = "<group>";
+		};
+		81A18B7D1EEE6AAA00BA8293 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81A18B7E1EEE6AAA00BA8293 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81A18BC31EEE72C800BA8293 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				81A18BC41EEE72C800BA8293 /* Base */,
+				81A18BCB1EEE72C800BA8293 /* Ping */,
+				81A18BD01EEE72C800BA8293 /* Socket */,
+				81A18BD31EEE72C800BA8293 /* WiFi */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		81A18BC41EEE72C800BA8293 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				81A18BC51EEE72C800BA8293 /* getgateway.c */,
+				81A18BC61EEE72C800BA8293 /* getgateway.h */,
+				81A18BC71EEE72C800BA8293 /* if_arp.h */,
+				81A18BC81EEE72C800BA8293 /* if_ether.h */,
+				81A18BC91EEE72C800BA8293 /* if_types.h */,
+				81A18BCA1EEE72C800BA8293 /* route.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		81A18BCB1EEE72C800BA8293 /* Ping */ = {
+			isa = PBXGroup;
+			children = (
+				81A18BCC1EEE72C800BA8293 /* SimplePing.h */,
+				81A18BCD1EEE72C800BA8293 /* SimplePing.m */,
+				81A18BCE1EEE72C800BA8293 /* SimplePingHelper.h */,
+				81A18BCF1EEE72C800BA8293 /* SimplePingHelper.m */,
+			);
+			path = Ping;
+			sourceTree = "<group>";
+		};
+		81A18BD01EEE72C800BA8293 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				81A18BD11EEE72C800BA8293 /* AsyncSocket.h */,
+				81A18BD21EEE72C800BA8293 /* AsyncSocket.m */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		81A18BD31EEE72C800BA8293 /* WiFi */ = {
+			isa = PBXGroup;
+			children = (
+				81A18BD41EEE72C800BA8293 /* Model */,
+				81A18BD91EEE72C800BA8293 /* WiFi+Scan.h */,
+				81A18BDA1EEE72C800BA8293 /* WiFi+Scan.m */,
+				81A18BDB1EEE72C800BA8293 /* WiFi+Socket.h */,
+				81A18BDC1EEE72C800BA8293 /* WiFi+Socket.m */,
+				81A18BDD1EEE72C800BA8293 /* WiFi.h */,
+				81A18BDE1EEE72C800BA8293 /* WiFi.m */,
+			);
+			path = WiFi;
+			sourceTree = "<group>";
+		};
+		81A18BD41EEE72C800BA8293 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81A18BD51EEE72C800BA8293 /* Device.h */,
+				81A18BD61EEE72C800BA8293 /* Device.m */,
+				81A18BD71EEE72C800BA8293 /* Router.h */,
+				81A18BD81EEE72C800BA8293 /* Router.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		81A18B691EEE6A8000BA8293 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A18BE71EEE72C800BA8293 /* SimplePingHelper.h in Headers */,
+				81A18BF11EEE72C800BA8293 /* WiFi+Socket.h in Headers */,
+				81A18BEF1EEE72C800BA8293 /* WiFi+Scan.h in Headers */,
+				81A18BF31EEE72C800BA8293 /* WiFi.h in Headers */,
+				81A18BEB1EEE72C800BA8293 /* Device.h in Headers */,
+				81A18BED1EEE72C800BA8293 /* Router.h in Headers */,
+				81A18BE91EEE72C800BA8293 /* AsyncSocket.h in Headers */,
+				81A18BE41EEE72C800BA8293 /* route.h in Headers */,
+				81A18BE01EEE72C800BA8293 /* getgateway.h in Headers */,
+				81A18BE51EEE72C800BA8293 /* SimplePing.h in Headers */,
+				81A18BE31EEE72C800BA8293 /* if_types.h in Headers */,
+				81A18B711EEE6A8000BA8293 /* WiFiKit.h in Headers */,
+				81A18BE21EEE72C800BA8293 /* if_ether.h in Headers */,
+				81A18BE11EEE72C800BA8293 /* if_arp.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		81A18B6B1EEE6A8000BA8293 /* WiFiKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81A18B741EEE6A8000BA8293 /* Build configuration list for PBXNativeTarget "WiFiKit" */;
+			buildPhases = (
+				81A18B671EEE6A8000BA8293 /* Sources */,
+				81A18B681EEE6A8000BA8293 /* Frameworks */,
+				81A18B691EEE6A8000BA8293 /* Headers */,
+				81A18B6A1EEE6A8000BA8293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiFiKit;
+			productName = WiFiKit;
+			productReference = 81A18B6C1EEE6A8000BA8293 /* WiFiKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81A18B7A1EEE6AAA00BA8293 /* iOS Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81A18B8F1EEE6AAA00BA8293 /* Build configuration list for PBXNativeTarget "iOS Demo" */;
+			buildPhases = (
+				81A18B771EEE6AAA00BA8293 /* Sources */,
+				81A18B781EEE6AAA00BA8293 /* Frameworks */,
+				81A18B791EEE6AAA00BA8293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Demo";
+			productName = "iOS Demo";
+			productReference = 81A18B7B1EEE6AAA00BA8293 /* iOS Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81A18B631EEE6A8000BA8293 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = midmirror;
+				TargetAttributes = {
+					81A18B6B1EEE6A8000BA8293 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					81A18B7A1EEE6AAA00BA8293 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 81A18B661EEE6A8000BA8293 /* Build configuration list for PBXProject "WiFiKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81A18B621EEE6A8000BA8293;
+			productRefGroup = 81A18B6D1EEE6A8000BA8293 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81A18B6B1EEE6A8000BA8293 /* WiFiKit */,
+				81A18B7A1EEE6AAA00BA8293 /* iOS Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81A18B6A1EEE6A8000BA8293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81A18B791EEE6AAA00BA8293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A18B8D1EEE6AAA00BA8293 /* LaunchScreen.storyboard in Resources */,
+				81A18B8A1EEE6AAA00BA8293 /* Assets.xcassets in Resources */,
+				81A18B881EEE6AAA00BA8293 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81A18B671EEE6A8000BA8293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A18BDF1EEE72C800BA8293 /* getgateway.c in Sources */,
+				81A18BF41EEE72C800BA8293 /* WiFi.m in Sources */,
+				81A18BE61EEE72C800BA8293 /* SimplePing.m in Sources */,
+				81A18BE81EEE72C800BA8293 /* SimplePingHelper.m in Sources */,
+				81A18BF21EEE72C800BA8293 /* WiFi+Socket.m in Sources */,
+				81A18BF01EEE72C800BA8293 /* WiFi+Scan.m in Sources */,
+				81A18BEC1EEE72C800BA8293 /* Device.m in Sources */,
+				81A18BEE1EEE72C800BA8293 /* Router.m in Sources */,
+				81A18BEA1EEE72C800BA8293 /* AsyncSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81A18B771EEE6AAA00BA8293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A18B821EEE6AAA00BA8293 /* AppDelegate.m in Sources */,
+				81A18BF81EEE782400BA8293 /* WiFiController.m in Sources */,
+				81A18B7F1EEE6AAA00BA8293 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81A18B861EEE6AAA00BA8293 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81A18B871EEE6AAA00BA8293 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81A18B8B1EEE6AAA00BA8293 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81A18B8C1EEE6AAA00BA8293 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81A18B721EEE6A8000BA8293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81A18B731EEE6A8000BA8293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81A18B751EEE6A8000BA8293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WiFiKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.midmirror.WiFiKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		81A18B761EEE6A8000BA8293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WiFiKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.midmirror.WiFiKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		81A18B901EEE6AAA00BA8293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.midmirror.WiFiKit.iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81A18B911EEE6AAA00BA8293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.midmirror.WiFiKit.iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81A18B661EEE6A8000BA8293 /* Build configuration list for PBXProject "WiFiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81A18B721EEE6A8000BA8293 /* Debug */,
+				81A18B731EEE6A8000BA8293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81A18B741EEE6A8000BA8293 /* Build configuration list for PBXNativeTarget "WiFiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81A18B751EEE6A8000BA8293 /* Debug */,
+				81A18B761EEE6A8000BA8293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81A18B8F1EEE6AAA00BA8293 /* Build configuration list for PBXNativeTarget "iOS Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81A18B901EEE6AAA00BA8293 /* Debug */,
+				81A18B911EEE6AAA00BA8293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81A18B631EEE6A8000BA8293 /* Project object */;
+}
