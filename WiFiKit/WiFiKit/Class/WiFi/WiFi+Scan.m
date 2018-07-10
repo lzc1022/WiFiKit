@@ -9,8 +9,8 @@
 #import "WiFi+Scan.h"
 #if (TARGET_IPHONE_SIMULATOR)
 #import <net/if_types.h>
-#import <net/route.h>
-#import <netinet/if_ether.h>
+#include "route.h"
+#include "if_ether.h"
 #elif TARGET_OS_OSX
 #import <net/if_types.h>
 #import <net/route.h>
